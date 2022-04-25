@@ -11,3 +11,6 @@ export const Navbars = styled.div`
 export const Links = styled.div`
   color: red;
 `;
+// export const Foot = styled.h3`
+//   background-color: gray;
+// `;

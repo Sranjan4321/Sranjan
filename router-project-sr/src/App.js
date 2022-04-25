@@ -8,6 +8,7 @@ import Apparel from "./Products/Apparel";
 import Feature from "./Products/Feature";
 import EndOfSeason from "./Products/EndOfSeason";
 import Login from "./Component/Login";
+import Footer from "./Component/Footer";
 function App() {
   return (
     <div>
@@ -21,6 +22,7 @@ function App() {
         <Route path={"/endofsale"} element={<EndOfSeason />} />
         <Route path={"/login"} element={<Login />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
