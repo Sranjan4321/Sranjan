@@ -1,6 +1,6 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
-import { Navbars, Links } from "./Navbar.styled";
+import { Link } from "react-router-dom";
+import { Navbars } from "./Navbar.styled";
 
 const Navbar = () => {
   return (
