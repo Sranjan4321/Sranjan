@@ -1,6 +1,6 @@
 import "./App.css";
 // import Navbar from "./EvalProject/Components/pages/Navbar.jsx";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import TennerGoods from "./Products/TennerGoods.jsx";
 import Mazama from "./Products/Mazama";
@@ -23,6 +23,7 @@ function App() {
           <Route path={"/feature"} element={<Feature />} />
           <Route path={"/endofsale"} element={<EndOfSeason />} />
           <Route path={"/login"} element={<Login />} />
+          <Route path={"*"} elelment={<pageNoFound />} />
         </Routes>
         <Footer />
       </div>
