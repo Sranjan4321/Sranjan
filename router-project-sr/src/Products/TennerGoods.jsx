@@ -14,11 +14,16 @@ const TennerGoods = () => {
     getdata();
   }, []);
   return (
-    <Grid>
-      {states.map((elem) => (
-        <Item key={elem.id} elem={elem} />
-      ))}
-    </Grid>
+    <>
+      <div style={{ textAlign: "center", fontSize: "20px", color: "red" }}>
+        TennerGoods
+      </div>
+      <Grid>
+        {states.map((elem) => (
+          <Item key={elem.id} elem={elem} />
+        ))}
+      </Grid>
+    </>
   );
 };
 

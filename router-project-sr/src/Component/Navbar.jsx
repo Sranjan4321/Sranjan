@@ -9,8 +9,8 @@ const Navbar = () => {
         <img
           src="https://cdn.shopify.com/s/files/1/0044/9802/files/Tanner-Goods-Mazama-Logo_150x.png?v=1600190052"
           alt="compony-logo"
-          width={"100px"}
-          height={"25Px"}
+          width={"180px"}
+          height={"50Px"}
         />
       </Link>
       <Link to="/tenner">tenner Goods</Link>

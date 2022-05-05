@@ -1,10 +1,10 @@
 import styled from "styled-components";
 export const Navbars = styled.div`
-  background-color: gray;
+  // background-color: gray;
   color: white;
   display: flex;
   justify-content: space-around;
-  font-size: 10px;
+  font-size: 20px;
   align-items: center;
   text-decoration: none;
 `;

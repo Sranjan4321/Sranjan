@@ -25,7 +25,6 @@ function App() {
           <Route path={"/login"} element={<Login />} />
           <Route path={"*"} elelment={<pageNoFound />} />
         </Routes>
-        <Footer />
       </div>
       {/* <div>
         <Navbar />
